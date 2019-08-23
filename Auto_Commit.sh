@@ -7,12 +7,16 @@ read commitMessage
 
 git commit -m "$commitMessage"
 
-echo '1. Press 1 to commit on master branch'
-echo '2. press 2 to commit on an existing branch [other than master]'
-echo '3. press 3 to enter a new branch name and commit in it'
+echo '1. press 0 to list all git branches of the repo.'
+echo '2. Press 1 to commit on master branch'
+echo '3. press 2 to commit on an existing branch [other than master]'
+echo '4. press 3 to enter a new branch name and commit in it'
 
 read xterm
-if [ $xterm -eq '1']
+if [ $xterm eq '0']
+then
+  git branch
+elif [ $xterm -eq '1']
 then
   git push origin master
 elif [ $xterm -eq 2'' ]
