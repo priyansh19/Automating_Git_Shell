@@ -15,7 +15,6 @@ read xterm
 if [ $xterm -eq '1']
 then
   git push origin master
-
 elif [ $xterm -eq 2'' ]
 then
   echo "Enter the name of an existing branch"
@@ -23,7 +22,6 @@ then
   git checkout $exist
   git push -u origin $exist
   git checkout master
-
 elif [ $xterm -eq '3' ]
 then
   echo "Enter the name of a new branch"
@@ -31,7 +29,6 @@ then
   git checkout -b $new
   git push -u origin $new
   git checkout master
-
 else
   echo "You chose a wrong option.."
 fi
