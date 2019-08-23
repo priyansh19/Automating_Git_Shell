@@ -15,5 +15,5 @@ then
 else
   git checkout -b $branch
   git push -u origin $branch
-  git checkout -b master
+  git checkout master
 fi
