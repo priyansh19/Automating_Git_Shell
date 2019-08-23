@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo '====================== Initialising Local Repo ========================='
+echo '====================== Initialising Repo ========================='
 echo '1. press 1 to initalise a local repo '
 echo '2. press 2 to clone a repository '
 read xterm
