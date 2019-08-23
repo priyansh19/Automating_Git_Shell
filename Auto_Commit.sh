@@ -13,10 +13,10 @@ echo '3. press 2 to commit on an existing branch [other than master]'
 echo '4. press 3 to enter a new branch name and commit in it'
 
 read xterm
-if [ $xterm -eq '0']
+if [ $xterm -eq '0' ]
 then
   git branch
-elif [ $xterm -eq '1']
+elif [ $xterm -eq '1' ]
 then
   git push origin master
 elif [ $xterm -eq 2'' ]
