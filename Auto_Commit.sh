@@ -5,7 +5,9 @@ git add .
 echo 'Enter the commit message:'
 read commitMessage
 git commit -m "$commitMessage"
-echo ' Git - Auto Commit '
+echo '\n'
+
+echo ' ============================== Git - Auto Commit =============================='
 echo '1. press 0 to list all git branches of the repo.'
 echo '2. Press 1 to commit on master branch'
 echo '3. press 2 to commit on an existing branch [other than master]'
