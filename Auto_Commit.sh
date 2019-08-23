@@ -5,7 +5,7 @@ git add .
 echo 'Enter the commit message:'
 read commitMessage
 git commit -m "$commitMessage"
-echo "\n"
+echo '\n'
 
 echo ' ============================== Git - Auto Commit =============================='
 echo '1. press 0 to list all git branches of the repo.'
