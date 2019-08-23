@@ -4,9 +4,8 @@ git add .
 
 echo 'Enter the commit message:'
 read commitMessage
-
 git commit -m "$commitMessage"
-
+echo ' Git - Auto Commit '
 echo '1. press 0 to list all git branches of the repo.'
 echo '2. Press 1 to commit on master branch'
 echo '3. press 2 to commit on an existing branch [other than master]'
@@ -19,7 +18,7 @@ then
 elif [ $xterm -eq '1' ]
 then
   git push origin master
-elif [ $xterm -eq 2'' ]
+elif [ $xterm -eq '2' ]
 then
   echo "Enter the name of an existing branch"
   read exist
