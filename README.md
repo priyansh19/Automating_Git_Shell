@@ -6,4 +6,4 @@ This is an amazing small tool, which automates your usage of GIT. When a file ch
 
 ## Git Auto Initialise Local + Remote Repo
 
-This is another small toll for initialising Local as well as Remote repo.
+This is another small tool for initialising Local as well as Remote repo.
