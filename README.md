@@ -1,5 +1,5 @@
-# Automating_Git_Shell
+# Automating_Git_Shell Using Shell Scripting and Python
 
-## git-autocommit
+## Git-Autocommit
 
 This is an amazing small tool, which automates your usage of GIT. When a file changes, it creates a commit and pushes it to your remote GIT repository.
