@@ -1,6 +1,17 @@
 #!/bin/bash
 
-git add .
+# Show all updated or untracked files
+git status
+
+# Ask user which file or all files he/she want to track/stage
+read -p "Enter filename to stage or enter . to stage all files: " inp
+git add "$inp"
+
+# Config username and email
+read -p "Enter your GitHub Username: " user1
+git config --global user.name "$user1"
+read -p "Enter your GitHub Email: " email1
+git config --global user.email "$email1"
 
 echo 'Enter the commit message:'
 read commitMessage
