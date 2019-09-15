@@ -1,4 +1,5 @@
-# Automating_Git_Shell Using Shell Scripting and Python
+:memo:
+# :memo: Automating_Git_Shell Using Shell Scripting and Python
 
 ## Git-Auto Commit
 
